@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_application/screen/home/home_screen.dart';
+import 'package:my_application/screen/home/news_screen.dart';
 import 'package:my_application/screen/home/profile_screen.dart';
 import 'package:my_application/screen/home/setting_screen.dart';
 
@@ -25,6 +26,7 @@ class _MainScreenState extends State<MainScreen> {
       icon: Icons.home,
       screen: const HomeScreen(),
     ),
+    BottomMenu(title: 'News', icon: Icons.newspaper, screen: NewsScreen()),
     BottomMenu(
       title: 'Settings',
       icon: Icons.settings,
